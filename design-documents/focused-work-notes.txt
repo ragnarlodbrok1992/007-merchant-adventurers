@@ -13,3 +13,11 @@ And it's goal is to:
   - create something
   - spend the time actually doing work
 
+What is done after finishing a time iteration for focused work:
+  - what was done
+  - how was it done
+  - what can be improved
+  - what will be done next
+
+2. Focused work tasks/normal tasks:
+  - 
