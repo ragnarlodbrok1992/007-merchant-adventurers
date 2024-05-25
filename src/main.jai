@@ -42,6 +42,9 @@ main :: () {
     return;
   }
 
+  defer SDL_DestroyWindow(window);
+  defer SDL_Quit();
+
   // Counters
   perf_freq := SDL_GetPerformanceFrequency();
 
