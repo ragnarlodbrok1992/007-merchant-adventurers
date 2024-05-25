@@ -2,6 +2,9 @@
 #import "SDL";
 #import "GL";
 
+#load "source/hexcube.jai";
+#load "source/camera.jai";
+
 RESOLUTION_FACTOR := 80.0;
 ENGINE_RUNNING := true;
 
@@ -69,8 +72,12 @@ main :: () {
     // Simulation delta time
     perf_delta = SDL_GetPerformanceCounter() - perf_counter_end_frame;
     delta_time := cast(float) perf_delta / cast(float) perf_freq;
-    perf_counter_end_frame = SDL_GetPerformanceCounter();
     // print("%\n", delta_time);
 
+    // Clear per-frame allocations
+    reset_temporary_storage();
+    
+    // Frame end time
+    perf_counter_end_frame = SDL_GetPerformanceCounter();
   }
 }
