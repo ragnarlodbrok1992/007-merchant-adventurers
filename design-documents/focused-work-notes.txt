@@ -21,3 +21,5 @@ What is done after finishing a time iteration for focused work:
 
 2. Focused work tasks/normal tasks:
   [001] HexCube render with Camera movement
+  [002] HexWorld rendering as a World to move on
+  [003] Avatar render with Animation and Movement

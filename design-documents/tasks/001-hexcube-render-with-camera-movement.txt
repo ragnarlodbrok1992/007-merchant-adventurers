@@ -1,0 +1,10 @@
+[001] HexCube render with Camera movement
+
+STATUS:
+
+TIME:
+
+GOAL:
+
+RETROSPECTIVE:
+
