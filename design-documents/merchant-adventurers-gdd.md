@@ -17,6 +17,7 @@ section.
 3. Trade Wars in Dynamic Economy with a hint of naval/land warfare - main
    focus of the game will be on dynamic economy. Naval/land warfare should
    only be fought to secure some more trade or to cripple rivalries.
+4. Player avatars - like starbound/terarria, game is player-centric.
 
 ## Gameplay Mechanics
 

@@ -20,4 +20,4 @@ What is done after finishing a time iteration for focused work:
   - what will be done next
 
 2. Focused work tasks/normal tasks:
-  - 
+  [001] HexCube render with Camera movement
