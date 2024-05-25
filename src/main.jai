@@ -1,12 +1,19 @@
 #import "Basic";
 #import "SDL";
 #import "GL";
+#import "Math";
 
 #load "source/hexcube.jai";
 #load "source/camera.jai";
 
 RESOLUTION_FACTOR := 80.0;
 ENGINE_RUNNING := true;
+
+HexCube :: struct {
+  pos: Vector3; // Center of hexcube
+  size: float; // Size of hexcube
+  height: float; // Height of hexcube
+};
 
 main :: () {
   // Engine variables initialization
@@ -44,6 +51,9 @@ main :: () {
 
   defer SDL_DestroyWindow(window);
   defer SDL_Quit();
+
+  // Create static entities
+  // Normal hexcube - size 1 height 0.1 in the middle of the world
 
   // Counters
   perf_freq := SDL_GetPerformanceFrequency();
