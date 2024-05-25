@@ -1,2 +1,7 @@
+# CTags
 tags
+
+# Build and .build
+.build/
+build/
 
